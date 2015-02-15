@@ -48,5 +48,5 @@ Creating One-Time Pads
 
 
 ```bash
-dd $OPTIONS if= of= bs=1024 count=$(($SIZE*1024))
+dd $OPTIONS if=/dev/hwrng of= bs=1024 count=$(($SIZE*1024))
 ```
