@@ -3,6 +3,17 @@ OTPsync
 
 _A Python-based project to use One-Time-Pad encryption for untrustworthy Cloud services such as Dropbox._
 
+Applications
+------------
+
+One-time pad encryption is only beneficial for encrypting *small* but *often changing* files.
+To put it in a nutshell, OTPsync is meant for the synchronization of
+- small, often changing files
+- that are highly confidential
+- via a high-risk communication channel.
+
+The motivation behind OTPsync was to find a viable solution to sync my password manager files and bitcoin wallets via untrustworthy channels (such as Dropbox) between my desktop machine at home, my laptop, and my computer at work.
+
 
 Installation
 ------------
