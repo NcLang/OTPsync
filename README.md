@@ -48,5 +48,5 @@ Creating One-Time Pads
 
 
 ```bash
-otpsync otp
+dd $OPTIONS if= of= bs=1024 count=$(($SIZE*1024))
 ```
