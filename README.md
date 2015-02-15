@@ -55,6 +55,12 @@ otpsync
 ```
 This will update all existing remote and local files depending on their modification dates without asking any questions. Newly created and/or deleted files will be ignored.
 
+Once set up, the workflow is straightforward: 
+Say, your password manager file changed on your computer at home.
+Call ```otpsync``` first in the directory with the changed file and then at work (or on your notebook) again.
+This will consume some KB of the "randomness" in your pads. 
+However, given a 1GB pad and daily transfers of, say, 1MB of data (which is way to much) requires a new pad after about three years. So the price you pay is negligibly compared to the level of security you get.
+
 Creating One-Time Pads
 ----------------------
 
