@@ -26,7 +26,8 @@ The following conditions must be met:
 - ```onetime``` requires python 2.7
 - ```otpsync``` requires python 3.4
 
-During setup of a OTPsync directory, you will be asked the path to *onetime*.
+During setup of a OTPsync directory, you will be asked the path to ```onetime```.
+In the following it is assumed that ```onetime``` is linked via ```/usr/bin/onetime```.
 
 Setting up OTPsync
 ------------------
