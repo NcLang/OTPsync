@@ -12,7 +12,7 @@ To put it in a nutshell, OTPsync is meant for the synchronization of
 - that are highly confidential
 - via a high-risk communication channel.
 
-The motivation behind OTPsync was to find a viable solution to sync my password manager files and bitcoin wallets via untrustworthy channels (such as Dropbox) between my desktop machine at home, my laptop, and my computer at work.
+The motivation behind OTPsync was to find a viable solution to sync my password manager files, private keys, and bitcoin wallets via untrustworthy channels (such as Dropbox) between my desktop machine at home, my laptop, and my computer at work.
 
 
 Installation
