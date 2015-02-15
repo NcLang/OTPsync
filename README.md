@@ -43,6 +43,12 @@ Finally, start a full synchronization via
 otpsync sync
 ```
 
+As long as files only changed (no deleted or newly created files), a quick sync can be invoced just by calling
+```bash
+otpsync
+```
+This will update all existing remote and local files depending on their modification dates without asking any questions. Newly created and/or deleted files will be ignored.
+
 Creating One-Time Pads
 ----------------------
 
