@@ -38,6 +38,8 @@ otpsync init
 ```
 You will be asked to specify several parameters.
 
+During the setup procedure, the script copies itself into the cloud repository; so all the other clients get a copy of the script automatically.
+
 Finally, start a full synchronization via
 ```bash
 otpsync sync
