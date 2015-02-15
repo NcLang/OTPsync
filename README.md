@@ -7,6 +7,9 @@ OTPsync uses the established script *onetime* for encryption and pad management.
 
 You can download it at http://www.red-bean.com/onetime/.
 
+Installation
+------------
+
 Setting up OTPsync
 ------------------
 
@@ -20,3 +23,6 @@ Finally, start a full synchronization via
 ```bash
 otpsync sync
 ```
+
+Creating One-Time Pads
+----------------------
