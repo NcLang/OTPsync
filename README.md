@@ -18,6 +18,9 @@ The motivation behind OTPsync was to find a viable solution to sync my password 
 Installation
 ------------
 
+OTPsync was successfully tested on Linux (Arch & Ubuntu) and OSX (Yosemite). 
+Compatibility with Windows may require minor tweaks of the code.
+
 The following conditions must be met:
 - OTPsync relies on the established script ```onetime``` for encryption and pad management. 
   You can download it at http://www.red-bean.com/onetime/. It is a single Python 2.7 script.
@@ -27,7 +30,8 @@ The following conditions must be met:
 - ```otpsync``` requires python 3.4
 
 During setup of a OTPsync directory, you will be asked the path to ```onetime```.
-In the following it is assumed that ```onetime``` is linked via ```/usr/bin/onetime```.
+In the following it is assumed that ```onetime``` is available via ```/usr/bin/onetime```.
+
 
 Setting up OTPsync
 ------------------
