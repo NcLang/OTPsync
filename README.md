@@ -46,7 +46,7 @@ otpsync sync
 Creating One-Time Pads
 ----------------------
 
-
+To create a 10MB pad from /dev/random, call
 ```bash
-dd $OPTIONS if=/dev/hwrng of= bs=1024 count=$(($SIZE*1024))
+dd if=/dev/random of=/path/to/new.pad bs=1024 count=10024
 ```
