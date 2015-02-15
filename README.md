@@ -3,7 +3,8 @@ OTPsync
 
 _A Python-based project to use One-Time-Pad encryption for untrustworthy Cloud services such as Dropbox._
 
-OTPsync uses the established script "onetime" for encryption and pad management. 
+OTPsync uses the established script *onetime* for encryption and pad management. 
+
 You can download it at http://www.red-bean.com/onetime/.
 
 To create the required file structures, change to the directory which should be synced and call
