@@ -7,6 +7,9 @@ OTPsync uses the established script *onetime* for encryption and pad management.
 
 You can download it at http://www.red-bean.com/onetime/.
 
+Setting up OTPsync
+------------------
+
 To create the required file structures, change to the directory which should be synced and call
 ```bash
 otpsync init
