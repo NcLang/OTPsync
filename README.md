@@ -45,3 +45,8 @@ otpsync sync
 
 Creating One-Time Pads
 ----------------------
+
+
+```bash
+otpsync otp
+```
