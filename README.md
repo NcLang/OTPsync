@@ -22,9 +22,7 @@ The following programs are required:
 - OTPsync relies on the established script *onetime* for encryption and pad management. 
   You can download it at http://www.red-bean.com/onetime/. It is a single Python 2.7 script.
   For some Linux distributions, there are even packages in the official repositories, e.g. for Ubuntu
-  ```bash
-  sudo apt-get install onetime
-  ```
+  ```sudo apt-get install onetime```
 - *onetime* requires python 2.7
 - *OTPsync* requires python 3.4
 
